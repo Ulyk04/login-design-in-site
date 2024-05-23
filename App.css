@@ -1,0 +1,95 @@
+*{
+  background: black;
+  position: absolute;
+  top: 30px;
+  left: 110px;
+}
+.App{
+  width: 500px;
+  height: 400px;
+  background-color: aliceblue;
+  border: 2px solid aliceblue;
+  border-radius: 15px;
+}
+.n1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  background-color:rgb(216, 199, 178);
+  position: relative;
+  top: 55px;
+}
+.person , .password , .email{
+  background: rgb(252, 252, 252);
+  mix-blend-mode: multiply;
+ }
+
+ input {
+   background-color: aliceblue;
+   color: black;
+   height: 30px;
+   border: 2px solid aliceblue;
+   border-radius: 15px;
+ }
+
+ .person1{
+  position: relative;
+  left: 200px;
+  top: -60px;
+ }
+ .email1{
+  position: relative;
+  left: 3px;
+  top: -1px;
+ }
+ .password1{
+  position: relative;
+  left: -196px;
+  top: 55px;
+ }
+ .person{
+  position: relative;
+  left: -5px;
+  top: -60px;
+ }
+ .email{
+  position: relative;
+  left: -204px;
+  top: -1px;
+ }
+ .password{
+  position: relative;
+  left: -400px;
+  top: 55px;
+ }
+ h1{
+  width: 150px;
+  height: 1px;
+  color: rgb(95, 78, 78);
+  background-color: aliceblue;
+  position: relative;
+  top: 2px;
+  left: 195px;
+ }
+ button{
+  background-color: rgb(216, 199, 178);
+  width: 100px;
+  height: 40px;
+  border: 1px solid rgb(216, 199, 178);
+  border-radius: 15px;
+  position: relative;
+  top: 80px;
+  margin: 0 30px;
+  left: 100px;
+  cursor: pointer;
+ }
+ .sign{
+  position: relative;
+  top: 100px;
+ }
+ .log{
+  position: relative;
+  top: 100px;
+ }
